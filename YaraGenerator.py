@@ -420,7 +420,7 @@ class YaraGenerator(PluginForm):
                     else:
                         opcode.append(byte_data)
                     
-                    elif i.mnemonic = "xchg":
+                    elif i.mnemonic == "xchg":
                         if re.compile("9[1-7]").match(byte_data):
                             opcode.append(byte_data[:1]+"?")
                         elif re.compile("8[6-7]").match(byte_data):
