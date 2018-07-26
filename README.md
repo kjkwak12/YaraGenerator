@@ -18,13 +18,24 @@ The wildcard feature is currently under study.
 ### [ YaraIcon ]
 <img src="images/YaraIcon.png" width="100%">
 
+### [ string option ]
+* Check .text section
+<img src="images/string_option_1.png" width="100%">
+<img src="images/string_option_2.png" width="100%">
+
+### [ select option ]
+<img src="images/select_option_2.png" width="100%">
+
+## old_version/YaraGenerator_Using_simplecustviewer_Choose.py
+<img src="images/select_option_1.png" width="100%">
+
 ### Install & Tutorial
 
 pip install yara-python
 
-pip install capstone-engine
+pip install capstone or download module installer (https://www.capstone-engine.org/download.html)
 
-pip install keystone-engine
+pip install keystone-engine or download module installer (http://www.keystone-engine.org/download/)
 
 pip install pefile
 
@@ -37,4 +48,9 @@ copy assembler_disassembler.py C:\Program Files\IDA 7.0\plugins
 YaraGenerator HOT-KEY : Ctrl + Shift + Y
 
 assembler_disassembler HOT-KEY: Ctrl + Shift + A
+
+### TODO
+* string option 사용 시 unicode일 경우 다르게 처리
+* 와일드 카드 처리 정교화
+
 
